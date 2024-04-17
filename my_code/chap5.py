@@ -127,8 +127,19 @@ print(greet[17:20])
 
 # 17번
 
+# (1)
 animals = ['dog', 'cat', 'tiger', 'lion']
 print('animals = ', animals)
+
+# (2)
+animals.append(animals.pop(0))
+print('animals = ', animals)
+
+# (3)
+animals = ['dog', 'cat', 'tiger', 'lion']
+for i in animals:
+    t = 'I love ' + i + '.'
+    print(t)
 
 
 
